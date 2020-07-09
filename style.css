@@ -2,3 +2,7 @@ h1{
 	color: red;
 	border: 2px solid red;
 }
+h2{
+	color: green;
+	border: 2px dotted green;
+}
