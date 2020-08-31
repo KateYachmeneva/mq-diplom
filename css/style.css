@@ -318,7 +318,7 @@ body {
       flex-wrap:wrap;
       padding-left: 20px;
       padding-right: 20px;
-      width:100%;
+      width:calc(100% - 40px);
     }
 .content:first-of-type{
   padding-bottom: 20px;
@@ -626,7 +626,7 @@ body {
    flex-wrap:wrap;
    padding-left: 20px;
    padding-right: 20px;
-   width: 100%
+   width: calc(100% - 40px);
     }
 .content:first-of-type{
   padding-bottom: 20px;
@@ -833,6 +833,7 @@ body {
 .header {
     font-size: 12px;
     background-image: url("..//images/work-it_960.jpg");
+    height:100vh;
   }
   .surface_logotext_header {
     width: 211px;
@@ -862,7 +863,8 @@ body {
         }
 .button {
   display: flex;
-  width: calc(50% - 35px);
+  width: calc(50% - 15px);
+  max-width:310px;
   height: 75px;}
 .span {
   font-family: OpenSans-Regular;
@@ -877,11 +879,12 @@ body {
   height: 45px;
   }
 .download_buttons {
-  width: calc(100% - 40px);
+  width: calc(100% - 70px);
+  max-width:650px;
   display:flex;
   flex-wrap:wrap;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 35px;
+  margin-left: 35px;
   justify-content: space-between;
   margin-bottom: 70px;
 }
@@ -897,7 +900,7 @@ body {
 .section_name{
   margin-top: 85px;
   font-size: 80px;
-  width:calc(100% - 280px);
+  width:calc(100% - 300px);
   padding-left: 20px;
   padding-right: 0;
   height:80px;
@@ -995,6 +998,7 @@ body {
 .purple_square_new{
   width:115px;
   height:115px;
+  bottom:-35px;
 }
 .purple_square_new_two{
   position: absolute;
@@ -1002,7 +1006,7 @@ body {
   height: 115px;
   background-color: #5e42b0;
   margin-left: 20px;
-  bottom: -10px;
+  bottom: -35px;
 }
 .square-number{
   font-size:24px;
@@ -1063,7 +1067,7 @@ body {
    height:80px;
   }
 .button:last-child{
-    margin-right: 35px;
+    margin-right: 0;
   }
 .search__icon{
     margin-left: -40px;
@@ -1082,6 +1086,7 @@ body {
     font-size: 12px;
     background-image: url("..//images/work-it_1024.jpg");
     justify-content: flex-start;
+    height:100vh;
   }
   .surface_logotext_header {
     width: 200px;
@@ -1092,28 +1097,28 @@ body {
     width: 200px;
     height: 55px;
         }
+  .welcome_label{
+    width:100%;
+  }
   .be {
    font-size: 90px;
    font-family: "OpenSans-Bold";
    color: #ffffff;
-   line-height: 0.34;
-   padding-bottom: 180px;
+   padding-bottom: 11%;
    text-align: left;
-   margin-left: 170px;
-   justify-content: flex;
+   margin-left: 10%;
    display: flex;
    flex-wrap: wrap;
+   line-height:0.7;
   }
 .small{
-   margin-left: 30px;
    display: flex;
    font-size: 90px;
    font-family: "OpenSans-Bold";
    color: #ffffff;
-   line-height: 1.8;
-   width: 100%;
    justify-content: flex-end;
-   margin-right: 13%
+   margin-left:30%;
+   line-height:normal;
         }
 .button {
   display: flex;
@@ -1235,10 +1240,11 @@ body {
 .action-header-new{
   display:flex;
   flex-direction:column;
-  margin-top:250px;
+  margin-top:245px;
   line-height:1.16;
   width:38%;
-  padding-left: 8%;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 .sportmen{
   width:50%;
@@ -1308,8 +1314,9 @@ body {
 }
 .sportmen-combination{
   width:100%;
-  height:730px;
-}
+  height:100%;
+  object-fit: cover;
+  }
 .article_action:nth-child(even){
   flex-direction:row-reverse;
 }
@@ -1318,12 +1325,14 @@ body {
     width:79%;
     padding-left: 0;
     padding-right: 20px;
+    margin-bottom: 245px;
   }
 .content_new {
     font-size: 24px;
     width:80%;
     padding-left: 0;
     padding-top: 0;
+    margin-bottom: 245px;
 }
 .purple-logo {
     text-align: center;
@@ -1334,8 +1343,9 @@ body {
   background-image: url("..//images/game_1280.jpg"); 
   padding-left: 0;
   padding-right: 0;
-  width:100%; 
-  }
+  width:100%;
+  height:100vh; 
+   }
 .surface_logotext{
   padding-bottom: 15px;
   padding-top: 50px;
@@ -1356,7 +1366,7 @@ body {
    height:80px;
   }
 .button:last-child{
-    margin-right: 35px;
+    margin-right: 0;
   }
 .search__icon{
     margin-left: -40px;
@@ -1366,4 +1376,8 @@ body {
   }
 .footer_header_next{
   margin-bottom: 280px;}
+.footer_label{
+  width:100%;
+  max-height:700px;
+}
 }
