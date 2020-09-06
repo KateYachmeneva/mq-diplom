@@ -203,6 +203,7 @@ body {
   text-align: left;
   vertical-align:super;
   margin-right:8px;
+  margin-top: 3px;
 }
 .header-number::before {
     content: "";
@@ -369,6 +370,7 @@ body {
   text-align: left;
   vertical-align:super;
   margin-right: 8px;
+  padding-top: 3px;
 }
   .header-number_grey::before{
     content: "";
@@ -378,7 +380,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     bottom:5px;
-               }
+                 }
   .header-number_blue{
   position: relative;
   font-size: 14px;
@@ -389,6 +391,7 @@ body {
   text-align: left;
   vertical-align:super;
   margin-right:8px;
+  padding-top: 3px;
   }
    .header-number_blue::before{
     content: "";
@@ -551,7 +554,7 @@ body {
     font-size: 12px;
     background-image: url("..//images/work-it_640.jpg");
   }
-    .surface_logotext_header {
+  .surface_logotext_header {
     width: 136px;
     height: 38px;
         }
@@ -1091,7 +1094,8 @@ body {
   .surface_logotext_header {
     width: 200px;
     height: 55px;
-    margin-bottom: 310px;
+    margin-bottom: 22vh;
+    margin-top:1vh;
           }
   .surface_logotext{
     width: 200px;
@@ -1104,7 +1108,7 @@ body {
    font-size: 90px;
    font-family: "OpenSans-Bold";
    color: #ffffff;
-   padding-bottom: 11%;
+   padding-bottom: 21vh;
    text-align: left;
    margin-left: 10%;
    display: flex;
@@ -1143,7 +1147,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 10vh;
 }
 .button:first-child{
     margin-right: 50px;
@@ -1171,26 +1175,30 @@ body {
 }
 .header-number{
   font-size: 18px;
+  margin-top: 5px;
 }
 .header-number_grey{
   font-size: 18px;
+  padding-top: 5px;
 }
 .header-number_blue{
   font-size:18px;
+  margin-top: 5px;
 }
 .header-number_blue::before{
   width:20px;
-  bottom:10px;
+  bottom:12px;
+  height:5px;
 }
 .header-number::before{
     width: 20px;
-    height:4px;
-    bottom:15px;
+    height:5px;
+    bottom:12px;
               }
 .header-number_grey::before{
   width: 20px;
-  height:4px;
-  bottom:15px;
+  height:5px;
+  bottom:12px;
 }
 .article:first-of-type{
   margin-top: 0;
@@ -1240,7 +1248,7 @@ body {
 .action-header-new{
   display:flex;
   flex-direction:column;
-  margin-top:245px;
+  margin-top:265px;
   line-height:1.16;
   width:38%;
   padding-left: 6%;
@@ -1286,15 +1294,15 @@ body {
 }
 .purple_square_new{
   width:165px;
-  height:150px;
-  bottom: 50%;
+  height:155px;
+  bottom: 51%;
   right: -83px;
 }
 .purple_square_new_two{
   width:165px;
-  height:150px;
-  bottom:50%;
-  left: -83px;
+  height:155px;
+  bottom:51%;
+  left: -103px;
 }
 .square-number{
   font-size:24px;
@@ -1307,7 +1315,8 @@ body {
 }
 .card-category-new{
   font-size:80px;
-  padding-bottom: 70px;
+  padding-bottom: 90px;
+  line-height: 0.75;
 }
 .sportmen{
   width:50%;
@@ -1359,7 +1368,7 @@ body {
   text-align: center;
   font-size: 80px;
   line-height:0.75;
-  margin-top: 80px;
+  margin-top: 8vh;
   }
  .logo{
    width:105px;
@@ -1375,9 +1384,12 @@ body {
     margin-left: 25px;
   }
 .footer_header_next{
-  margin-bottom: 280px;}
+  margin-bottom: 28vh;}
 .footer_label{
   width:100%;
   max-height:700px;
+}
+.container-footer{
+  padding-top: 10vh;
 }
 }
