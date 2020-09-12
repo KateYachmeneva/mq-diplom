@@ -22,8 +22,8 @@ body {
   margin-top: 0;
 }
 .surface_logotext_header {
-  fill: #ffffff;
-  margin-top: 30px;
+ fill: #ffffff;
+ margin-top: 30px;
  margin-bottom: 130px;
 }
 .logotext {
@@ -86,7 +86,7 @@ body {
 }
 .button {
   padding-left: 83px;
-  margin-bottom: 14px;
+  margin-bottom: 2vh;
   border: none;
   border-radius: 36px;
   background-color: #5e42b0;
@@ -455,7 +455,7 @@ body {
    text-transform: uppercase;
    line-height: 1.2;
    list-style-type: none;
-    text-decoration:none;
+   text-decoration:none;
    }
    .action-header-new{
     display:flex;
@@ -464,6 +464,13 @@ body {
     padding-left: 20px;
     padding-right: 20px;
         } 
+    .action-header-new-two{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:17px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    }
   .content_new{
    font-size: 16px;
   font-family: OpenSans-Regular, sans-serif;
@@ -484,7 +491,7 @@ body {
   padding-right: 70px;
 
   }
-.content_new_first{
+ .content_new_first{
   font-size: 16px;
   font-family: OpenSans-Regular, sans-serif;
   color: rgb(0, 0, 0);
@@ -538,7 +545,7 @@ body {
 .container-footer{
   position:relative;
   z-index:2;
-  padding-top: 100px;
+  padding-top: 10vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -557,6 +564,8 @@ body {
   .surface_logotext_header {
     width: 136px;
     height: 38px;
+    margin-top: 3vh;
+    margin-bottom: 15vh;
         }
   .surface_logotext{
     width: 136px;
@@ -756,7 +765,7 @@ body {
     padding-right: 20px;
   }
 .card-category-new{
-    text-align: left;
+   text-align: left;
    font-size: 28px;
    font-family: OpenSans-Bold, sans-serif;
    color: #e7e7e7;
@@ -772,6 +781,12 @@ body {
     padding-left: 20px;
     padding-right: 20px;
         } 
+.action-heaer-new-two{
+  display:flex;
+  margin-top:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .content_new{
    font-size: 16px;
   font-family: OpenSans-Regular, sans-serif;
@@ -831,6 +846,7 @@ body {
     width:100%;
   }
 .footer{
+  min-height:100vh;
   background-image: url("..//images/game_767.jpg"); }
 @media (min-width: 641px) and (max-width: 960px){
 .header {
@@ -841,6 +857,8 @@ body {
   .surface_logotext_header {
     width: 211px;
     height: 60px;
+    margin-top: 3vh;
+    margin-bottom: 15vh
            }
   .surface_logotext{
     width: 211px;
@@ -854,7 +872,7 @@ body {
     color: #ffffff;
     line-height: 1.8;
     text-align:left;
-    padding-bottom: 310px;
+    padding-bottom: 12vh;
   }
 .small{
     margin-left: 95px;
@@ -886,8 +904,8 @@ body {
   max-width:650px;
   display:flex;
   flex-wrap:wrap;
-  margin-right: 35px;
-  margin-left: 35px;
+  margin-right: auto;
+  margin-left: auto;
   justify-content: space-between;
   margin-bottom: 70px;
 }
@@ -1027,6 +1045,10 @@ body {
   margin-top: 40px;
   line-height:1.16;
 }
+.action-header-new-two{
+  margin-top: 40px;
+  line-height:1.16;
+}
 .content_one {
     font-size: 24px;
     width:80%;
@@ -1058,12 +1080,13 @@ body {
 .footer_header_next{
   font-size: 36px;
   line-height: 1.66;
+  margin-bottom: 28vh;
   }
 .footer_header{
   text-align: center;
   font-size: 80px;
   line-height:0.75;
-  margin-top: 80px;
+  margin-top: 8vh;
   }
  .logo{
    width:105px;
@@ -1077,9 +1100,6 @@ body {
   }
 .spans{
     margin-left: 25px;
-  }
-.footer_header_next{
-  margin-bottom: 280px;
   }
 .footer_label{
   width:100%;
@@ -1108,7 +1128,7 @@ body {
    font-size: 90px;
    font-family: "OpenSans-Bold";
    color: #ffffff;
-   padding-bottom: 21vh;
+   padding-bottom: 12vh;
    text-align: left;
    margin-left: 10%;
    display: flex;
@@ -1244,16 +1264,26 @@ body {
   margin-bottom: 0;
  }
 .article_action:last-of-type {
-    margin-bottom: 0;}
+    margin-bottom: 0;
+  }
+
 .action-header-new{
   display:flex;
   flex-direction:column;
   margin-top:265px;
   line-height:1.16;
   width:38%;
-  padding-left: 6%;
-  padding-right: 6%;
+  padding-left: 10%;
+  padding-right: 0;
 }
+.action-header-new-two{
+  display:flex;
+  flex-direction:column;
+  margin-top:265px;
+  line-height:1.16;
+  width:38%;
+  padding-left: 0;
+  padding-right: 10%;}
 .sportmen{
   width:50%;
 }
@@ -1353,11 +1383,11 @@ body {
   padding-left: 0;
   padding-right: 0;
   width:100%;
-  height:100vh; 
+  min-height:100vh; 
    }
 .surface_logotext{
-  padding-bottom: 15px;
-  padding-top: 50px;
+  padding-bottom: 1.5vh;
+  padding-top: 0;
   }
 
 .footer_header_next{
